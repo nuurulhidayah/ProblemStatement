@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
         types = new ArrayList<>();
         types.add("Secular");
-        types.add("Religions");
+        types.add("Ethnic & Religion");
 
         aa = new ArrayAdapter(this, android.R.layout.simple_list_item_1, types);
         lv.setAdapter(aa);
